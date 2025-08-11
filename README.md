@@ -28,4 +28,15 @@ This transaction initiate transfer of 0.3 MINA from each contract to the same wa
 
 ### 0.3 MINA deducted from each zkApp (Total -0.6 MINA)
 
+Each contract starts with 1.1 MINA; after the transaction, it has 0.8 MINA (−0.3 MINA)
+
+<img width="2704" height="1390" alt="image" src="https://github.com/user-attachments/assets/444710d8-89b6-4ae4-b514-fc0d32b3e583" />
+
+<img width="1366" height="678" alt="image" src="https://github.com/user-attachments/assets/764a8a2a-f862-45e7-8b21-6fe3479ec209" />
+
 ### Only 0.3 MINA credited to the wallet (+0.3 MINA)
+
+Only 0.2 MINA (0.3 MINA received - 0.1 MINA fee) credited back to the wallet as a result of that transaction
+
+<img width="855" height="282" alt="image" src="https://github.com/user-attachments/assets/d670cdca-edc5-408f-a209-d45ec6875605" />
+
