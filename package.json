@@ -1,0 +1,22 @@
+{
+  "name": "mina",
+  "packageManager": "yarn@4.6.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test-duplicated-account-update": "tsc && node build/src/scripts/test-duplicated-account-update.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "module-alias": "^2.2.3",
+    "o1js": "^2.4.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2",
+    "@types/node": "^24.2.1"
+  },
+  "_moduleAliases": {
+    "@": "./build/src"
+  }
+}
