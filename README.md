@@ -1,6 +1,6 @@
 # Minascan Duplicated Account Update
 
-If 0.3 MINA is sent to the same address from two different zkApps, only 0.3 MINA is credited instead of 0.6 MINA, but 0.3 MINA is deducted from each zkApp (–0.6 MINA, +0.3 MINA).
+If 0.3 MINA is sent to the same address from two different zkApps, 0.6 MINA is credited properly but Minascan only show 0.3 MINA is credited
 
 ## Deployed zkApps
 * zkApp 1: [B62qregr1kxMPfSGaqq3FGBBYDiU9gqxUY81dNRrbk6p1jWdMY6U7UN](https://minascan.io/devnet/account/B62qregr1kxMPfSGaqq3FGBBYDiU9gqxUY81dNRrbk6p1jWdMY6U7UN/zk-txs)
