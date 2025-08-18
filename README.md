@@ -1,6 +1,6 @@
-# Mina Duplicated Account Update
+# Minascan Duplicated Account Update
 
-Mina duplicated account update has a critical bug: if 0.3 MINA is sent to the same address from two different zkApps, only 0.3 MINA is credited instead of 0.6 MINA, but 0.3 MINA is deducted from each zkApp (–0.6 MINA, +0.3 MINA).
+If 0.3 MINA is sent to the same address from two different zkApps, only 0.3 MINA is credited instead of 0.6 MINA, but 0.3 MINA is deducted from each zkApp (–0.6 MINA, +0.3 MINA).
 
 ## Deployed zkApps
 * zkApp 1: [B62qregr1kxMPfSGaqq3FGBBYDiU9gqxUY81dNRrbk6p1jWdMY6U7UN](https://minascan.io/devnet/account/B62qregr1kxMPfSGaqq3FGBBYDiU9gqxUY81dNRrbk6p1jWdMY6U7UN/zk-txs)
@@ -39,6 +39,4 @@ Each zkApp starts with 1.1 MINA; after the transaction, it has 0.8 MINA (−0.3 
 Only 0.2 MINA (0.3 MINA received - 0.1 MINA fee) credited back to the wallet as a result of that transaction
 
 <img width="855" height="282" alt="image" src="https://github.com/user-attachments/assets/d670cdca-edc5-408f-a209-d45ec6875605" />
-
-As a result, 0.3 MINA is lost in eternity
 
